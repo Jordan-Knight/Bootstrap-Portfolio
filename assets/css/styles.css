@@ -1,3 +1,96 @@
 body{
-	padding: 70px 0;
+	padding: 90px 0;
+	background-image: url('../images/ep_naturalwhite.png');
+}
+
+nav{
+	height: 70px;
+	background-color: #fff;
+}
+
+.navbar-brand.logo:hover{
+	background-color: #4aaaa5;
+}
+
+.logo{
+	height: 50px;
+	width: 300px;
+	background-color: #4aaaa5;
+	color: #fff;
+	position: relative;
+	top: 20px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 30px;
+	text-align: center;
+
+
+}
+
+.btn-default{
+	background-color: #4aaaa5;
+	color: #fff;
+
+}
+
+.main-nav{
+	position: absolute;
+    right: 115px;
+    top: 20px;
+}
+
+.main-image{
+	float: left;
+	width: 50%;
+	padding: 10px;
+}
+
+p{
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+	line-height: 1.5;
+}
+
+.footer{
+	background-color: #666666;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #777;
+}
+.navbar-fixed-bottom{
+	border-top: 5px solid #4aaaa5;
+	background-color: #666666;
+	text-align: center;
+	color: #777;
+}
+.footer-text{
+	margin: 0 auto;
+	line-height: 75px;
+}
+
+div.panel-heading.h1{
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #4aaaa5;
+	font-size: 24px;
+	font-weight: bold;
+	background-color: #fff;
+}
+
+div.panel-heading.social{
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #4aaaa5;
+	font-size: 20px;
+	font-weight: bold;
+	background-color: #fff;
+	text-align: center;
+}
+
+form{
+	padding-bottom: 20px;
+}
+
+.img-thumbnail{
+	border: none;
+}
+
+.navbar-brand.logo{
+	color: #fff;
 }
